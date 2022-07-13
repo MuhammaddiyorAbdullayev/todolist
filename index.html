@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To do Input</h1>
+        <br>
+        <div class="box">
+            <div class="box1">
+               <i class="fas fa-list-alt"></i>
+               <input type="text" id="todo" placeholder="New todo">
+            </div>
+            <br>
+            <div class="box2">
+                <button id="btn" onclick="addNew()" class="brand"> Add New</button>
+                <p id="text"></p>
+            </div>
+        </div>
+        <br>
+        <h1>To Do List</h1> 
+        <div class="bar">
+            <div class="all">
+                <button>All</button>
+                <button>Done</button>
+                <button>To Do</button>
+            </div>
+            
+            <div class="beter">
+                <button>Delete done Tasks</button>
+                <button onclick="ClearAll()">Delete all</button>
+                
+            
+            </div>
+        </div>    
+    </div>
+<script src="./apps.js"></script>
+
+
+
+</body>
+</html>

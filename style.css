@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.box1 i{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.box1 input{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box1 i{
+    font-size: 25px;
+    width: 6%;
+    height: 84%;
+    background-color: #0011ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px , 0 , 0 , 5px;
+}
+.box2{
+    
+    width: 100%;
+    height: 27%;
+    cursor: pointer;
+}
+.box2 button{
+    
+    width: 98%;
+    cursor: pointer;
+    height: 85%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: #4b84ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bar div{
+    display: flex;
+}
+.bar .all button{
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.all button{
+    width: 55%;
+    height: 100px;
+    align-items: center;
+}
+.bar button{
+    width: 40%;
+    margin: 15px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #0dcaf0;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.bott i{
+    color: red;    
+}
+.bott i+i{
+    color: yellow;
+}
+.section{
+    width: 100%;
+    height: 30%;
+}
+.matn{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 175);
+    border: 2px solid;
+    margin: 10px;
+    align-items: center;
+    padding: 1px;
+    border-radius: 5px;
+    list-style: none;
+}
+.beter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.matn div{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.matn div span{
+    color: yellow;
+    padding-right: 15px;
+    font-size: 25px;
+    font-size: 25px;
+}
+.matn button:hover{
+     color: blue;
+}
+.matn button{
+    display: flex;
+    cursor: pointer; 
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+
+    
+}
+.matn input{
+    font-size: 45px;
+    padding-right: 30px;
+}
+.beter{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.beter button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    background-color: red;
+    color: #fff;
+}
+
+
+
